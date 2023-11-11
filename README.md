@@ -1,6 +1,41 @@
-# Getting Started with Create React App
+# Amip E-Commerce UI (Shop Page With React & React-Redux)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### This project is the shop page of "Amip E-Commerce UI" that showed a full responsive SPA React App with all modern technologies in 2023
+
+### Application Features
+
+1. Full responsive with pure CSS , Tailwind CSS and Material-UI.
+
+2. Getting some fake product with axios and a fake api.
+
+3. Showing all products in our website , in a single page.
+
+4. Showing the Details of any single product in a single page.
+
+## Technologies Used
+
+#### React JS [Components, Router Dom, Hooks, Link]
+#### Axios.js
+#### Redux.js
+#### Tailwind CSS
+#### Material UI
+
+### For Run :
+```
+npm install
+npm run start
+```
+## Learning Resources
+
+- [Material UI](https://mui.com/material-ui/getting-started)
+- [Tailwind CSS](https://tailwindcss.com/docs/installation)
+- [React.js](https://react.dev/learn)
+- [Axios.js](https://axios-http.com/docs/intro)
+- [Redux.js](https://redux.js.org/introduction/getting-started)
+
+### Live Link 
+
+https://amip.hamtasystem.com
 
 ## Available Scripts
 
@@ -39,32 +74,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [GNU-GENERAL-LICENSE](https://www.gnu.org/licenses/gpl-3.0.en.html)
