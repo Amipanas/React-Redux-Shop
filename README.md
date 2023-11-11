@@ -1,4 +1,4 @@
-# Amip E-Commerce UI (Shop Page With React & React-Redux)
+# Amip E-Commerce UI (Shop Page With React & Redux)
 
 ### This project is the shop page of "Amip E-Commerce UI" that showed a full responsive SPA React App with all modern technologies in 2023
 
