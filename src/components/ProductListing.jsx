@@ -3,10 +3,6 @@ import axios from 'axios';
 import { useDispatch } from 'react-redux';
 import { setProducts } from '../redux/actions/productActions'
 import ProductComponent from './ProductComponent';
-import '../../node_modules/bootstrap/dist/css/bootstrap.css'
-import '../../node_modules/bootstrap/dist/css/bootstrap.css.map'
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css.map'
 
 const ProductPage = () => {
   const dispatch = useDispatch();
@@ -18,7 +14,7 @@ const ProductPage = () => {
       });
     dispatch(setProducts(response.data))
   };
-  useEffect(() => {fetchProducts();}, [])
+  useEffect(() => {fetchProducts();})
   return (
     <div className='ui grid container'>
       <ProductComponent />
