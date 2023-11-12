@@ -14,7 +14,7 @@
 
 ## Technologies Used
 
-#### React JS [Components, Router Dom, Hooks, Link]
+#### React JS [User Interface, Application Logic]
 #### Axios.js
 #### Redux.js
 #### Tailwind CSS
