@@ -44,7 +44,8 @@
 }
 
 .ui.grid.container {
-  margin-top: 45px;
+  margin-top: 35px;
+  width: 90%!important;
 }
 
 .ui.grid > .row {
@@ -88,7 +89,42 @@
 .ui.placeholder.segment .column > .ui.input {
   background-color: #ff3e6c;
   border: 1px solid #ff3e6c;
-  /* color: #fff; */
   font-size: 18px;
   margin-left: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .ui.grid.container {
+    width: 90%!important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ui.link.cards{
+  max-width: fit-content;}
+}
+
+.p-size-fixer{
+  flex: 0 0 auto;
+  width: 25%;
+}
+@media screen and (max-width: 1200px){
+  .p-size-fixer {
+    width: 33.33%;
+  }
+}
+@media screen and (max-width: 768px){
+  .p-size-fixer {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 425px){
+  .ui.grid.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px auto !important;
+  }
+  .p-size-fixer {
+    width: fit-content;
+  }
 }
